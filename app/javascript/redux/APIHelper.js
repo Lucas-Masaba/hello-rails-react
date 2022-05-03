@@ -1,4 +1,4 @@
-const messageURL = 'http://localhost:3000/v1/things'
+const messageURL = 'http://localhost:3000/api/greetings'
 
 const getMessage = async () => {
   const response = await fetch(messageURL)
